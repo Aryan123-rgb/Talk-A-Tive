@@ -19,7 +19,6 @@ export const ChatProvider = ({ children }) => {
   };
 
   const getAllUserInfo = async () => {
-    console.log('reached');
     const response = await fetch("http://localhost:4000/user/allUserInfo", {
       method: "GET",
       credentials: "include",

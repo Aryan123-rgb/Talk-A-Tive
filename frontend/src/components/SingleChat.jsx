@@ -25,15 +25,11 @@ const SingleChat = () => {
     handleGetAllMessages
   } = useContext(ChatContext);
 
-  socket.on("om namay shivay", async ({ newMessageRecieved, note }) => {
+  socket.on("om namay shivay",({ newMessageRecieved, note }) => {
     chats.push(newMessageRecieved);
     console.log(note);
     handleGetAllMessages();
   });
-
-  useEffect(()=>{
-    handleGetAllMessages();
-  },[chats])
 
   const sendMessage = async (event) => {
     if (event.key === "Enter" && newMessage) {
@@ -56,6 +52,7 @@ const SingleChat = () => {
           newMessageRecieved: data,
           note: "from frontend",
         });
+        handleGetAllMessages();
       } catch (error) {
         console.log(error);
       }
