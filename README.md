@@ -15,7 +15,6 @@ Talk-a-tive is a real-time chat application that allows users to communicate ins
 - Secure user authentication using JWT (JSON Web Tokens).
 - MongoDB database for efficient data storage and retrieval.
 - Responsive design for seamless usage on various devices.
-- Create, read, update, and delete (CRUD) functionalities for managing chat messages.
 - Social sharing feature to share messages on popular social media platforms.
 
 ## Installation
