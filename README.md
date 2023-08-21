@@ -2,10 +2,16 @@
 
 Talk-a-tive is a real-time chat application that allows users to communicate instantly with each other. The application is built using the MERN (MongoDB, Express, React, Node.js) stack and leverages the power of WebSockets for seamless and efficient bidirectional data exchange.
 
-### Authentication Page![image](./Pasted%20image.png)
+### Authentication Page
+
+![Pasted image](https://github.com/Aryan123-rgb/Talk-A-Tive/assets/118872531/4ebdc9e0-9ea2-472b-9530-33d34ecee245)
 
 
-### Chat Page ![image](./Pasted%20image%201.png)
+
+### Chat Page 
+
+![Screencast from 2023-07-25 21-29-46](https://github.com/Aryan123-rgb/Talk-A-Tive/assets/118872531/acc8f948-baee-48ec-be8f-5f63bcb632ce)
+
 
 ### Real-Time Chat
 
