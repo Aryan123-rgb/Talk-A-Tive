@@ -7,7 +7,14 @@ Talk-a-tive is a real-time chat application that allows users to communicate ins
 
 ### Chat Page ![image](./Pasted%20image%201.png)
 
-### Real-Time Chat ![video](./Screencast%20from%202023-07-25%2021-29-46.gif)
+### Real-Time Chat
+
+
+
+https://github.com/Aryan123-rgb/Talk-A-Tive/assets/118872531/97c1e177-7602-4749-bee5-1e706cc5c446
+
+
+
 ## Features
 
 - Real-time instant messaging with WebSockets.
